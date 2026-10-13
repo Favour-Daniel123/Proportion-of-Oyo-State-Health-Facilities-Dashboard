@@ -221,7 +221,7 @@ Hospitals, clinics and private medical centres together make up about a third of
 
 ## 11. Author
 
-**[Your Name]** — Data Analyst
-[LinkedIn](https://linkedin.com/in/your-profile) · [Email](mailto:your.email@example.com)
+**AFOLABI FAVOUR DANIEL** — Data Analyst
+[LinkedIn](https://www.linkedin.com/in/afolabi-favour-daniel-a08768298) · [Email](afolabifavour247@gmail.com) · [Website] (https://afolabi-favour-daniel.netlify.app/)
 
-*Data source: Oyo State SRMNH facility reporting, August 2026. Analysis and report prepared with the assistance of Claude (Anthropic).*
+*Data source: Oyo State SRMNH facility reporting, August 2026.*
