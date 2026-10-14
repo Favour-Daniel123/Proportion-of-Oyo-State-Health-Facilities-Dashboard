@@ -15,9 +15,7 @@
 6. [Key Insights](#6-key-insights)
 7. [Recommendations](#7-recommendations)
 8. [Limitations & Assumptions](#8-limitations--assumptions)
-9. [Repository Structure](#9-repository-structure)
-10. [How to Use](#10-how-to-use)
-11. [Author](#11-author)
+9. [Author](#9-author)
 
 ---
 
@@ -187,41 +185,9 @@ Hospitals, clinics and private medical centres together make up about a third of
 - **Methods dispensed include continuing users**, so it is not comparable to "New FP acceptors."
 - Findings describe **what was reported**; causes (stock-outs, staffing, reporting gaps) need field verification.
 
-## 9. Repository Structure
-
-```
-├── README.md                          # This report
-├── dashboard_preview.png              # Screenshot of the dashboard
-├── SRMNH_Dashboard_Aug2026.xlsx       # Cleaned data + interactive dashboard
-├── data/
-│   └── Proportion_of_Facilities_providing_SRMNH_services_AUGUST_2026.xls   # Original (optional)
-└── scripts/
-    └── build.py                       # Python script that cleans the data and builds the workbook (optional)
-```
-
-**Workbook sheets**
-
-| Sheet | Contents |
-|---|---|
-| `Dashboard` | Interactive dashboard (start here) |
-| `Clean_Data` | Cleaned, analysis-ready table with derived fields |
-| `LGA_Summary` | All LGAs × all indicators, heat-mapped |
-| `Cleaning_Log` | Every cleaning step plus reconciliation to the source totals |
-| `Calc` | Formula engine behind the dashboard (do not edit) |
-| `Raw_Data` | Untouched copy of the original data for audit |
-
-## 10. How to Use
-
-1. Download `SRMNH_Dashboard_Aug2026.xlsx` and open it in Excel (desktop recommended).
-2. Go to the **Dashboard** sheet.
-3. Use the yellow dropdowns to filter by **LGA**, **Facility type** and **Rank by** metric. KPIs, charts, the top-10 table and insights all update.
-4. Review `Cleaning_Log` to see how the data was prepared and reconciled.
-
-**To refresh with new data:** replace the rows in `Clean_Data` (keeping the same column order), update the facility range if the row count changes, and re-check the control totals in `Cleaning_Log`.
-
-## 11. Author
+## 9. Author
 
 **AFOLABI FAVOUR DANIEL** — Data Analyst
 [LinkedIn](https://www.linkedin.com/in/afolabi-favour-daniel-a08768298) · [Email](afolabifavour247@gmail.com) · [Website] (https://afolabi-favour-daniel.netlify.app/)
 
-*Data source: Oyo State SRMNH facility reporting, August 2026.*
+*Data source: DHIS 2 - Oyo State SRMNH facility reporting, August 2026.*
